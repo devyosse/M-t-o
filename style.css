@@ -1,0 +1,38 @@
+#container{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+#city{
+    background-color: dodgerblue;
+}
+
+#temp{
+    background-color: aqua;
+}
+
+#humidity{
+    background-color: #0ccece;
+}
+
+#wind{
+    background-color: aliceblue;
+}
+
+i{
+    font-size: 30px;
+    color: #988e8e;
+}
