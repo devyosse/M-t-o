@@ -1,27 +1,39 @@
+body{
+    background-color: aliceblue;
+}
+
 #container{
-    width: 1000px;
-    height: 500px;
+    width: 500px;
+    height: 300px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 10%;
+
 }
 
 .box{
-    width: 150px;
-    height: 150px;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 20px;
     color: black;
     text-align: center;
+
 }
 
 #city{
     background-color: dodgerblue;
+
 }
 
 #temp{
-    background-color: aqua;
+    background-color: aqua
+
 }
 
 #humidity{
@@ -35,4 +47,19 @@
 i{
     font-size: 30px;
     color: #988e8e;
+}
+
+#research{
+    background-color: #5151ee;
+     border-radius: 10%;
+    font-size: 35px;
+    color: white;
+    margin-left: 44%;
+    margin-top: 5%;
+}
+
+#inputCity{
+    margin-left: 40%;
+    font-size: 30px;
+    border: none;
 }

@@ -5,7 +5,6 @@ let x = function (city) {
 
     fetch(url).then((response) =>
         response.json().then(data => {
-            console.log(data);
             document.querySelector('#city').querySelector('p').innerHTML = data.name;
             document.querySelector('#temp').querySelector('p').innerHTML = data.main.temp + "°";
             document.querySelector('#humidity').querySelector('p').innerHTML = data.main.humidity + '%';
